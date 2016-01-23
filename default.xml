@@ -7,47 +7,47 @@
   <default revision="refs/tags/HLK75D" remote="aosp" sync-j="1" />
 
   <!-- From x86 port repositories -->
-  <project path="build" name="platform/build" remote="x86" revision="honeycomb-x86" >
+  <project path="build" name="android-x86-mirror/platform_build" remote="x86" revision="honeycomb-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.0.1" />
-  <project path="bionic" name="platform/bionic" remote="x86" revision="honeycomb-x86" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="honeycomb-x86" />
-  <project path="dalvik" name="platform/dalvik" remote="x86" revision="honeycomb-x86" />
-  <project path="development" name="platform/development" remote="x86" revision="honeycomb-x86" />
-  <project path="device/amd" name="device/amd" remote="x86" revision="honeycomb-x86" />
-  <project path="device/asus/eeepc" name="device/asus/eeepc" remote="x86" revision="honeycomb-x86" />
-  <project path="device/asus/laptop" name="device/asus/laptop" remote="x86" revision="honeycomb-x86" />
-  <project path="device/common" name="device/common" remote="x86" revision="honeycomb-x86" />
-  <project path="device/hp/tx2500" name="device/hp/tx2500" remote="x86" revision="honeycomb-x86" />
-  <project path="device/lenovo/s103t" name="device/lenovo/s103t" remote="x86" revision="honeycomb-x86" />
-  <project path="device/tegatech/tegav2" name="device/tegatech/tegav2" remote="x86" revision="honeycomb-x86" />
-  <project path="device/vm/vm" name="device/vm/vm" remote="x86" revision="honeycomb-x86" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="honeycomb-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="honeycomb-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="honeycomb-x86" />
-  <project path="external/drm" name="platform/external/drm" remote="x86" revision="honeycomb-x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="honeycomb-x86" />
-  <project path="external/ppp" name="platform/external/ppp" remote="x86" revision="honeycomb-x86" />
-  <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="honeycomb-x86" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="honeycomb-x86" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="x86" revision="honeycomb-x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="honeycomb-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="honeycomb-x86" />
-  <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="honeycomb-x86" />
-  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="honeycomb-x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="honeycomb-x86" />
-  <project path="prebuilt" name="platform/prebuilt" remote="x86" revision="honeycomb-x86" />
-  <project path="sdk" name="platform/sdk" remote="x86" revision="honeycomb-x86" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" revision="honeycomb-x86" />
-  <project path="system/core" name="platform/system/core" remote="x86" revision="honeycomb-x86" />
-  <project path="system/extras" name="platform/system/extras" remote="x86" revision="honeycomb-x86" />
-  <project path="system/vold" name="platform/system/vold" remote="x86" revision="honeycomb-x86" />
+  <project path="kernel" name="android-x86-mirror/kernel_common" remote="x86" revision="android-3.0.1" />
+  <project path="bionic" name="android-x86-mirror/platform_bionic" remote="x86" revision="honeycomb-x86" />
+  <project path="bootable/newinstaller" name="android-x86-mirror/platform_bootable_newinstaller" remote="x86" revision="honeycomb-x86" />
+  <project path="dalvik" name="android-x86-mirror/platform_dalvik" remote="x86" revision="honeycomb-x86" />
+  <project path="development" name="android-x86-mirror/platform_development" remote="x86" revision="honeycomb-x86" />
+  <project path="device/amd" name="android-x86-mirror/device_amd" remote="x86" revision="honeycomb-x86" />
+  <project path="device/asus/eeepc" name="android-x86-mirror/device_asus_eeepc" remote="x86" revision="honeycomb-x86" />
+  <project path="device/asus/laptop" name="android-x86-mirror/device_asus_laptop" remote="x86" revision="honeycomb-x86" />
+  <project path="device/common" name="android-x86-mirror/device_common" remote="x86" revision="honeycomb-x86" />
+  <project path="device/hp/tx2500" name="android-x86-mirror/device_hp_tx2500" remote="x86" revision="honeycomb-x86" />
+  <project path="device/lenovo/s103t" name="android-x86-mirror/device_lenovo_s103t" remote="x86" revision="honeycomb-x86" />
+  <project path="device/tegatech/tegav2" name="android-x86-mirror/device_tegatech_tegav2" remote="x86" revision="honeycomb-x86" />
+  <project path="device/vm/vm" name="android-x86-mirror/device_vm_vm" remote="x86" revision="honeycomb-x86" />
+  <project path="external/alsa-lib" name="android-x86-mirror/platform_external_alsa-lib" remote="x86" revision="honeycomb-x86" />
+  <project path="external/alsa-utils" name="android-x86-mirror/platform_external_alsa-utils" remote="x86" revision="honeycomb-x86" />
+  <project path="external/busybox" name="android-x86-mirror/platform_external_busybox" remote="x86" revision="honeycomb-x86" />
+  <project path="external/drm" name="android-x86-mirror/platform_external_drm" remote="x86" revision="honeycomb-x86" />
+  <project path="external/mesa" name="android-x86-mirror/platform_external_mesa" remote="x86" revision="honeycomb-x86" />
+  <project path="external/ppp" name="android-x86-mirror/platform_external_ppp" remote="x86" revision="honeycomb-x86" />
+  <project path="external/tslib" name="android-x86-mirror/platform_external_tslib" remote="x86" revision="honeycomb-x86" />
+  <project path="external/v86d" name="android-x86-mirror/platform_external_v86d" remote="x86" revision="honeycomb-x86" />
+  <project path="external/wpa_supplicant_6" name="android-x86-mirror/platform_external_wpa_supplicant_6" remote="x86" revision="honeycomb-x86" />
+  <project path="frameworks/base" name="android-x86-mirror/platform_frameworks_base" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/alsa_sound" name="android-x86-mirror/platform_hardware_alsa_sound" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/drm_gralloc" name="android-x86-mirror/platform_hardware_drm_gralloc" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/gps" name="android-x86-mirror/platform_hardware_gps" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/libhardware" name="android-x86-mirror/platform_hardware_libhardware" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/libhardware_legacy" name="android-x86-mirror/platform_hardware_libhardware_legacy" remote="x86" revision="honeycomb-x86" />
+  <project path="hardware/libsensors" name="android-x86-mirror/platform_hardware_libsensors" remote="x86" revision="honeycomb-x86" />
+  <project path="packages/apps/AndroidTerm" name="android-x86-mirror/platform_packages_apps_AndroidTerm" remote="x86" revision="honeycomb-x86" />
+  <project path="packages/apps/FileManager" name="android-x86-mirror/platform_packages_apps_FileManager" remote="x86" revision="honeycomb-x86" />
+  <project path="packages/apps/Settings" name="android-x86-mirror/platform_packages_apps_Settings" remote="x86" revision="honeycomb-x86" />
+  <project path="prebuilt" name="android-x86-mirror/platform_prebuilt" remote="x86" revision="honeycomb-x86" />
+  <project path="sdk" name="android-x86-mirror/platform_sdk" remote="x86" revision="honeycomb-x86" />
+  <project path="system/bluetooth" name="android-x86-mirror/platform_system_bluetooth" remote="x86" revision="honeycomb-x86" />
+  <project path="system/core" name="android-x86-mirror/platform_system_core" remote="x86" revision="honeycomb-x86" />
+  <project path="system/extras" name="android-x86-mirror/platform_system_extras" remote="x86" revision="honeycomb-x86" />
+  <project path="system/vold" name="android-x86-mirror/platform_system_vold" remote="x86" revision="honeycomb-x86" />
 
   <!-- BEGIN open-source projects -->
 

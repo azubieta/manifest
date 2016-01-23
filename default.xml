@@ -9,24 +9,24 @@
            remote="korg" />
 
   <!-- from x86 port repositories -->
-  <project path="build" name="platform/build" remote="x86">
+  <project path="build" name="android-x86-mirror/platform_build" remote="x86">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="kernel/common" remote="x86" />
+  <project path="kernel" name="android-x86-mirror/kernel_common" remote="x86" />
 
-  <project path="bionic" name="platform/bionic" remote="x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
-  <project path="prebuilt" name="platform/prebuilt" remote="x86" />
-  <project path="system/core" name="platform/system/core" remote="x86" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" remote="x86" />
+  <project path="bionic" name="android-x86-mirror/platform_bionic" remote="x86" />
+  <project path="frameworks/base" name="android-x86-mirror/platform_frameworks_base" remote="x86" />
+  <project path="hardware/libhardware_legacy" name="android-x86-mirror/platform_hardware_libhardware_legacy" remote="x86" />
+  <project path="prebuilt" name="android-x86-mirror/platform_prebuilt" remote="x86" />
+  <project path="system/core" name="android-x86-mirror/platform_system_core" remote="x86" />
+  <project path="external/e2fsprogs" name="android-x86-mirror/platform_external_e2fsprogs" remote="x86" />
 
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
+  <project path="packages/apps/Contacts" name="android-x86-mirror/platform_packages_apps_Contacts" remote="x86" />
+  <project path="packages/apps/Music" name="android-x86-mirror/platform_packages_apps_Music" remote="x86" />
 
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
-  <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+  <project path="bootable/newinstaller" name="android-x86-mirror/platform_bootable_newinstaller" remote="x86" />
+  <project path="vendor/asus/eeepc" name="android-x86-mirror/platform_vendor_asus_eeepc" remote="x86" />
 
   <!-- from original Android repositories -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="86dcb678f30c588a31321f27af873d7ba2dacfb9" />

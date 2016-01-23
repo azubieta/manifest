@@ -11,50 +11,50 @@
            sync-j="4" />
 
   <!-- from x86 port repositories -->
-  <project path="build" name="platform/build" groups="pdk" remote="x86" revision="jb-x86" >
+  <project path="build" name="android-x86-mirror/platform_build" groups="pdk" remote="x86" revision="jb-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.10" />
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="jb-x86" />
-  <project path="dalvik" name="platform/dalvik" remote="x86" revision="jb-x86" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="jb-x86" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="jb-x86" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="jb-x86" />
-  <project path="external/drm" name="platform/external/drm" remote="x86" revision="jb-x86" />
-  <project path="external/eject" name="platform/external/eject" remote="x86" revision="jb-x86" />
-  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="jb-x86" />
-  <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="jb-x86" />
-  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="jb-x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="jb-x86" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="external/parted" name="platform/external/parted" remote="x86" revision="jb-x86" />
-  <project path="external/ppp" name="platform/external/ppp" remote="x86" revision="jb-x86" />
-  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="jb-x86"/>
-  <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="jb-x86" />
-  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="jb-x86" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="jb-x86" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="jb-x86" />
-  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="jb-x86" />
-  <project path="hardware/intel/hwcomposer" name="platform/hardware/intel/hwcomposer" remote="x86" revision="jb-x86" />
-  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="jb-x86" />
-  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="jb-x86" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="jb-x86" />
-  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="jb-x86" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="jb-x86" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="jb-x86" />
-  <project path="vendor/intel/houdini" name="platform/vendor/intel/houdini" remote="x86" revision="jb-x86" />
+  <project path="kernel" name="android-x86-mirror/kernel_common" remote="x86" revision="android-3.10" />
+  <project path="bionic" name="android-x86-mirror/platform_bionic" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="bootable/newinstaller" name="android-x86-mirror/platform_bootable_newinstaller" remote="x86" revision="jb-x86" />
+  <project path="dalvik" name="android-x86-mirror/platform_dalvik" remote="x86" revision="jb-x86" />
+  <project path="device/generic/x86" name="android-x86-mirror/device_generic_x86" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="external/alsa-lib" name="android-x86-mirror/platform_external_alsa-lib" remote="x86" revision="jb-x86" />
+  <project path="external/alsa-utils" name="android-x86-mirror/platform_external_alsa-utils" remote="x86" revision="jb-x86" />
+  <project path="external/bluetooth/bluedroid" name="android-x86-mirror/platform_external_bluetooth_bluedroid" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="external/busybox" name="android-x86-mirror/platform_external_busybox" remote="x86" revision="jb-x86" />
+  <project path="external/drm" name="android-x86-mirror/platform_external_drm" remote="x86" revision="jb-x86" />
+  <project path="external/eject" name="android-x86-mirror/platform_external_eject" remote="x86" revision="jb-x86" />
+  <project path="external/ffmpeg" name="android-x86-mirror/platform_external_ffmpeg" remote="x86" revision="jb-x86" />
+  <project path="external/koush/Superuser" name="android-x86-mirror/platform_external_koush_Superuser" remote="x86" revision="jb-x86" />
+  <project path="external/koush/Widgets" name="android-x86-mirror/platform_external_koush_Widgets" remote="x86" revision="jb-x86" />
+  <project path="external/mesa" name="android-x86-mirror/platform_external_mesa" remote="x86" revision="jb-x86" />
+  <project path="external/mksh" name="android-x86-mirror/platform_external_mksh" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="external/parted" name="android-x86-mirror/platform_external_parted" remote="x86" revision="jb-x86" />
+  <project path="external/ppp" name="android-x86-mirror/platform_external_ppp" remote="x86" revision="jb-x86" />
+  <project path="external/stagefright-plugins" name="android-x86-mirror/platform_external_stagefright-plugins" remote="x86" revision="jb-x86"/>
+  <project path="external/tslib" name="android-x86-mirror/platform_external_tslib" remote="x86" revision="jb-x86" />
+  <project path="external/v86d" name="android-x86-mirror/platform_external_v86d" remote="x86" revision="jb-x86" />
+  <project path="external/wpa_supplicant_8" name="android-x86-mirror/platform_external_wpa_supplicant_8" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="frameworks/av" name="android-x86-mirror/platform_frameworks_av" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="frameworks/base" name="android-x86-mirror/platform_frameworks_base" remote="x86" revision="jb-x86" />
+  <project path="frameworks/native" name="android-x86-mirror/platform_frameworks_native" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="hardware/broadcom/libbt" name="android-x86-mirror/platform_hardware_broadcom_libbt" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="hardware/drm_gralloc" name="android-x86-mirror/platform_hardware_drm_gralloc" remote="x86" revision="jb-x86" />
+  <project path="hardware/gps" name="android-x86-mirror/platform_hardware_gps" remote="x86" revision="jb-x86" />
+  <project path="hardware/intel/hwcomposer" name="android-x86-mirror/platform_hardware_intel_hwcomposer" remote="x86" revision="jb-x86" />
+  <project path="hardware/libaudio" name="android-x86-mirror/platform_hardware_libaudio" remote="x86" revision="jb-x86" />
+  <project path="hardware/libcamera" name="android-x86-mirror/platform_hardware_libcamera" remote="x86" revision="jb-x86" />
+  <project path="hardware/libhardware" name="android-x86-mirror/platform_hardware_libhardware" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="hardware/libhardware_legacy" name="android-x86-mirror/platform_hardware_libhardware_legacy" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="hardware/liblights" name="android-x86-mirror/platform_hardware_liblights" remote="x86" revision="jb-x86" />
+  <project path="hardware/libsensors" name="android-x86-mirror/platform_hardware_libsensors" remote="x86" revision="jb-x86" />
+  <project path="hardware/ril" name="android-x86-mirror/platform_hardware_ril" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="packages/apps/Settings" name="android-x86-mirror/platform_packages_apps_Settings" remote="x86" revision="jb-x86" />
+  <project path="system/core" name="android-x86-mirror/platform_system_core" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="system/extras" name="android-x86-mirror/platform_system_extras" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="system/vold" name="android-x86-mirror/platform_system_vold" groups="pdk" remote="x86" revision="jb-x86" />
+  <project path="vendor/intel/houdini" name="android-x86-mirror/platform_vendor_intel_houdini" remote="x86" revision="jb-x86" />
 
   <!-- from original Android repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />

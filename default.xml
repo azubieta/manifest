@@ -14,8 +14,8 @@
   <project path="build" name="android-x86-mirror/platform_build" groups="pdk" remote="x86" revision="marshmallow-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="android-x86-mirror/kernel_common" remote="x86" revision="kernel-4.0" />
-  <project path="art" name="android-x86-mirror/platform_art" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project path="kernel" name="android-x86-mirror/kernel_common.git" remote="x86" revision="kernel-4.0" />
+  <project path="art" name="android-x86-mirror/platform_art.git" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="bionic" name="android-x86-mirror/platform_bionic" groups="pdk" remote="x86" revision="marshmallow-x86" />
   <project path="bootable/newinstaller" name="android-x86-mirror/platform_bootable_newinstaller" remote="x86" revision="marshmallow-x86" />
   <project path="device/generic/common" name="android-x86-mirror/device_generic_common" groups="pdk" remote="x86" revision="marshmallow-x86" />

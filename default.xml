@@ -1,8 +1,7 @@
 <manifest>
 
-  <default remote="aosp" revision="refs/tags/android-6.0.1_r10" sync-c="true" sync-j="4" />
+  <default remote="aosp-gh" revision="refs/tags/android-6.0.1_r10" sync-c="true" sync-j="4" />
 
-  
   <project groups="pdk" name="android-x86-mirror/platform_build" path="build" remote="x86-org" revision="marshmallow-x86">
     <copyfile dest="Makefile" src="core/root.mk" />
   </project>
@@ -53,7 +52,7 @@
   <project groups="pdk" name="android-x86-mirror/platform_system_extras" path="system/extras" remote="x86-org" revision="marshmallow-x86" />
   <project groups="pdk" name="android-x86-mirror/platform_system_vold" path="system/vold" remote="x86-org" revision="marshmallow-x86" />
 
-  
+
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" remote="aosp-org" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="aosp-org" />
   <project groups="notdefault,cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="aosp-org" />
